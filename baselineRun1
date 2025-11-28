@@ -1,0 +1,39 @@
+(ladder) C:\Users\苏一波\ladder>python -m ladder.cli batch --questions-module mit_bee_regular_season_questions --batch-size 10 --output-dir variant_results --difficulties easier equivalent --num-variants 10 --save-individual --save-combined
+Loading questions from: mit_bee_regular_season_questions
+Loaded 85 questions
+Processing with batch size: 10
+Difficulties: {'easier': 10, 'equivalent': 10}
+Output directory: variant_results
+Processing 85 integrals in 9 batches
+Processing batch 1/9 (10 integrals)
+Saved batch 1 results to variant_results\variants_batch_1_20251128_132404.json
+Processing batch 2/9 (10 integrals)
+Saved batch 2 results to variant_results\variants_batch_2_20251128_132450.json
+Processing batch 3/9 (10 integrals)
+Saved batch 3 results to variant_results\variants_batch_3_20251128_132520.json
+Processing batch 4/9 (10 integrals)
+Saved batch 4 results to variant_results\variants_batch_4_20251128_132557.json
+Processing batch 5/9 (10 integrals)
+Saved batch 5 results to variant_results\variants_batch_5_20251128_132630.json
+Processing batch 6/9 (10 integrals)
+Saved batch 6 results to variant_results\variants_batch_6_20251128_132717.json
+Processing batch 7/9 (10 integrals)
+Saved batch 7 results to variant_results\variants_batch_7_20251128_132753.json
+Processing batch 8/9 (10 integrals)
+Saved batch 8 results to variant_results\variants_batch_8_20251128_132830.json
+Processing batch 9/9 (5 integrals)
+Saved batch 9 results to variant_results\variants_batch_9_20251128_132900.json
+Saved all results to variant_results\variants_all_20251128_132900.json
+Processing complete. Generated 1553 total variants.
+
+=== SUMMARY ===
+Total variants: 1553
+
+By difficulty:
+  easier: 756
+  equivalent: 797
+
+Verification status:
+  passed: 557 (35.9%)
+  failed: 0 (0.0%)
+  unknown: 996 (64.1%)
