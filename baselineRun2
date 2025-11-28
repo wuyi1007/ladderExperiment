@@ -1,0 +1,38 @@
+(ladder) C:\Users\苏一波\ladder>python batch_generate_variants_modern.py --batch-size 10 --output-dir variant_results --num-easier 7 --num-equivalent 3
+Processing 85 questions
+Batch size: 10
+Difficulties: {'easier': 7, 'equivalent': 3}
+Output directory: variant_results
+Processing 85 integrals in 9 batches
+Processing batch 1/9 (10 integrals)
+Saved batch 1 results to variant_results\variants_batch_1_20251128_143917.json
+Processing batch 2/9 (10 integrals)
+Saved batch 2 results to variant_results\variants_batch_2_20251128_143945.json
+Processing batch 3/9 (10 integrals)
+Saved batch 3 results to variant_results\variants_batch_3_20251128_144020.json
+Processing batch 4/9 (10 integrals)
+Saved batch 4 results to variant_results\variants_batch_4_20251128_144101.json
+Processing batch 5/9 (10 integrals)
+Saved batch 5 results to variant_results\variants_batch_5_20251128_144136.json
+Processing batch 6/9 (10 integrals)
+Saved batch 6 results to variant_results\variants_batch_6_20251128_144157.json
+Processing batch 7/9 (10 integrals)
+Saved batch 7 results to variant_results\variants_batch_7_20251128_144224.json
+Processing batch 8/9 (10 integrals)
+Saved batch 8 results to variant_results\variants_batch_8_20251128_144256.json
+Processing batch 9/9 (5 integrals)
+Saved batch 9 results to variant_results\variants_batch_9_20251128_144330.json
+Saved all results to variant_results\variants_all_20251128_144330.json
+Processing complete. Generated 674 total variants.
+
+=== SUMMARY ===
+Total variants: 674
+
+By difficulty:
+  easier: 546
+  equivalent: 128
+
+Verification status:
+  passed: 240 (35.6%)
+  failed: 0 (0.0%)
+  unknown: 434 (64.4%)
