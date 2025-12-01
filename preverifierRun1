@@ -1,0 +1,50 @@
+
+(ladder) C:\Users\苏一波\ladder>python ladder/summarize_preverify_vs_verify.py variant_results/variants_all_20251201_084504.json
+
+=== OVERALL SUMMARY ===
+Total variants: 1569
+
+By pre-verifier decision:
+  KEEP   :   142 (  9.1%)
+  REHAB  :   651 ( 41.5%)
+  DROP   :   776 ( 49.5%)
+  UNKNOWN:     0 (  0.0%)
+
+By verification result:
+  TRUE   :   540 ( 34.4%)
+  FALSE  :     0 (  0.0%)
+  UNKNOWN:  1029 ( 65.6%)
+
+Cross tab (PV x Verify):
+PV\VER |  TRUE   FALSE  UNKNOWN |  TOTAL
+----------------------------------------
+KEEP   |    57       0        85 |    142
+REHAB  |   279       0       372 |    651
+DROP   |   204       0       572 |    776
+UNKNOWN |     0       0         0 |      0
+
+Key rates (by PV decision):
+  DROP correctness (FALSE or UNKNOWN considered 'bad') :   572/  776 =  73.7%
+  DROP precision (FALSE only considered 'bad')          :     0/  776 =   0.0%
+  Kept false rate (KEEP+REHAB that were FALSE)          :     0/  793 =   0.0%
+
+=== SUBSET SUMMARY (flag-based) ===
+
+[Dropped-by-PreVerifier (flag)]  count=776
+  TRUE   :   204 ( 26.3%)
+  FALSE  :     0 (  0.0%)
+  UNKNOWN:   572 ( 73.7%)
+
+[Kept-by-PreVerifier (flag)]  count=793
+  TRUE   :   336 ( 42.4%)
+  FALSE  :     0 (  0.0%)
+  UNKNOWN:   457 ( 57.6%)
+
+Additional overall rates:
+  Overall TRUE rate   :   540/ 1569 =  34.4%
+  Overall FALSE rate  :     0/ 1569 =   0.0%
+  Overall UNKNOWN rate:  1029/ 1569 =  65.6%
+
+Balanced accuracy proxy (DROP as negative / KEEP as positive, UNKNOWN counts as negative for DROP):
+  TNR(DROP) =  73.7% ,  TPR(KEEP) =  42.4%
+  Balanced accuracy ≈  58.0%
