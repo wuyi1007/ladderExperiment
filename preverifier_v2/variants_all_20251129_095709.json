@@ -1,3 +1,4 @@
+
 [
   {
     "original": "integrate(max(sin(x), sin(2*x)), (x, 0, 2*pi))",
