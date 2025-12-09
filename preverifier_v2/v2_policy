@@ -1,0 +1,6 @@
+if p < 0.25:
+    bucket = "DROP"
+elif p < 0.40:
+    bucket = "REHAB"
+else:
+    bucket = "KEEP"
