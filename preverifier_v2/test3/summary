@@ -1,30 +1,4 @@
 (ladder) C:\Users\苏一波\LADDER-main>python batch_generate_variants_modern.py --batch-size 10 --output-dir variant_results --num-easier 14 --num-equivalent 6
-Processing 26 questions
-Batch size: 10
-Difficulties: {'easier': 14, 'equivalent': 6}
-Output directory: variant_results
-Processing 26 integrals in 3 batches
-Processing batch 1/3 (10 integrals)
-Saved batch 1 results to variant_results\variants_batch_1_20251209_231825.json
-Processing batch 2/3 (10 integrals)
-Saved batch 2 results to variant_results\variants_batch_2_20251209_231857.json
-Processing batch 3/3 (6 integrals)
-Saved batch 3 results to variant_results\variants_batch_3_20251209_231950.json
-Saved all results to variant_results\variants_all_20251209_231950.json
-Processing complete. Generated 470 total variants.
-
-=== SUMMARY ===
-Total variants: 470
-
-By difficulty:
-  easier: 343
-  equivalent: 127
-
-Verification status:
-  passed: 188 (40.0%)
-  failed: 0 (0.0%)
-  unknown: 282 (60.0%)
-
 (ladder) C:\Users\苏一波\LADDER-main>python build_eval_from_variants_20251209.py
 Wrote preverifier_eval_20251209_231950.jsonl
 Total examples: 470, positives: 188, negatives: 282
