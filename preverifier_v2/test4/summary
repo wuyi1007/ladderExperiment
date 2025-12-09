@@ -1,0 +1,59 @@
+(ladder) C:\Users\苏一波\LADDER-main>python batch_generate_variants_modern.py --batch-size 10 --output-dir variant_results --num-easier 14 --num-equivalent 6
+Processing 40 questions
+Batch size: 10
+Difficulties: {'easier': 14, 'equivalent': 6}
+Output directory: variant_results
+Processing 40 integrals in 4 batches
+Processing batch 1/4 (10 integrals)
+Saved batch 1 results to variant_results\variants_batch_1_20251209_234426.json
+Processing batch 2/4 (10 integrals)
+Saved batch 2 results to variant_results\variants_batch_2_20251209_234459.json
+Processing batch 3/4 (10 integrals)
+Saved batch 3 results to variant_results\variants_batch_3_20251209_234538.json
+Processing batch 4/4 (10 integrals)
+Saved batch 4 results to variant_results\variants_batch_4_20251209_234614.json
+Saved all results to variant_results\variants_all_20251209_234614.json
+Processing complete. Generated 706 total variants.
+
+=== SUMMARY ===
+Total variants: 706
+
+By difficulty:
+  easier: 511
+  equivalent: 195
+
+Verification status:
+  passed: 276 (39.1%)
+  failed: 0 (0.0%)
+  unknown: 430 (60.9%)
+
+(ladder) C:\Users\苏一波\LADDER-main>python build_eval_from_variants_20251209.py
+Wrote preverifier_eval_20251209_234614.jsonl
+Total examples: 706, positives: 276, negatives: 430
+
+(ladder) C:\Users\苏一波\LADDER-main>python sweep_thresholds_v2.py
+Total test examples: 706, positives=276, negatives=430
+
+thr   recall_pos  prec_pos   kept_frac   filtered_T  filtered_F  kept_F   kept_T
+----  ----------  --------   ---------   ----------  ----------  -------  -------
+0.00       1.000     0.391       1.000            0           0      430      276
+0.05       1.000     0.391       1.000            0           0      430      276
+0.10       1.000     0.391       1.000            0           0      430      276
+0.15       1.000     0.391       1.000            0           0      430      276
+0.20       0.978     0.438       0.873            6          84      346      270
+0.25       0.971     0.449       0.846            8         101      329      268
+0.30       0.964     0.450       0.837           10         105      325      266
+0.35       0.957     0.450       0.831           12         107      323      264
+0.40       0.946     0.451       0.820           15         112      318      261
+0.45       0.909     0.445       0.799           25         117      313      251
+0.50       0.833     0.426       0.765           46         120      310      230
+0.55       0.014     1.000       0.006          272         430        0        4
+0.60       0.000     0.000       0.000          276         430        0        0
+0.65       0.000     0.000       0.000          276         430        0        0
+0.70       0.000     0.000       0.000          276         430        0        0
+0.75       0.000     0.000       0.000          276         430        0        0
+0.80       0.000     0.000       0.000          276         430        0        0
+0.85       0.000     0.000       0.000          276         430        0        0
+0.90       0.000     0.000       0.000          276         430        0        0
+0.95       0.000     0.000       0.000          276         430        0        0
+1.00       0.000     0.000       0.000          276         430        0        0
