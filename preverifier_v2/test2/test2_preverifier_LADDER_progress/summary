@@ -1,0 +1,26 @@
+(ladder) C:\Users\苏一波\LADDER-main>python batch_generate_variants_modern.py --batch-size 10 --output-dir variant_results --num-easier 14 --num-equivalent 6
+Processing 26 questions
+Batch size: 10
+Difficulties: {'easier': 14, 'equivalent': 6}
+Output directory: variant_results
+Processing 26 integrals in 3 batches
+Processing batch 1/3 (10 integrals)
+Saved batch 1 results to variant_results\variants_batch_1_20251210_073429.json
+Processing batch 2/3 (10 integrals)
+Saved batch 2 results to variant_results\variants_batch_2_20251210_073513.json
+Processing batch 3/3 (6 integrals)
+Saved batch 3 results to variant_results\variants_batch_3_20251210_073553.json
+Saved all results to variant_results\variants_all_20251210_073553.json
+Processing complete. Generated 455 total variants.
+
+=== SUMMARY ===
+Total variants: 455
+
+By difficulty:
+  easier: 339
+  equivalent: 116
+
+Verification status:
+  passed: 211 (46.4%)
+  failed: 0 (0.0%)
+  unknown: 244 (53.6%)
