@@ -57,3 +57,64 @@ thr   recall_pos  prec_pos   kept_frac   filtered_T  filtered_F  kept_F   kept_T
 0.90       0.000     0.000       0.000          276         430        0        0
 0.95       0.000     0.000       0.000          276         430        0        0
 1.00       0.000     0.000       0.000          276         430        0        0
+
+(ladder) C:\Users\苏一波\LADDER-main>python batch_generate_variants_modern.py --batch-size 10 --output-dir variant_results --num-easier 14 --num-equivalent 6
+Processing 40 questions
+Batch size: 10
+Difficulties: {'easier': 14, 'equivalent': 6}
+Output directory: variant_results
+Processing 40 integrals in 4 batches
+Processing batch 1/4 (10 integrals)
+Saved batch 1 results to variant_results\variants_batch_1_20251210_083500.json
+Processing batch 2/4 (10 integrals)
+Saved batch 2 results to variant_results\variants_batch_2_20251210_083538.json
+Processing batch 3/4 (10 integrals)
+Saved batch 3 results to variant_results\variants_batch_3_20251210_083634.json
+Processing batch 4/4 (10 integrals)
+Saved batch 4 results to variant_results\variants_batch_4_20251210_083720.json
+Saved all results to variant_results\variants_all_20251210_083720.json
+Processing complete. Generated 724 total variants.
+
+=== SUMMARY ===
+Total variants: 724
+
+By difficulty:
+  easier: 518
+  equivalent: 206
+
+Verification status:
+  passed: 300 (41.4%)
+  failed: 0 (0.0%)
+  unknown: 424 (58.6%)
+
+(ladder) C:\Users\苏一波\LADDER-main>python analyze_preverifier.py
+=== analyze_preverifier_2shot ===
+File: variant_results\variants_all_20251210_083720.json
+Total final variants (slots): 724
+
+Counts by num_regenerations:
+  regen = 0 : 645
+  regen = 1 : 79
+  regen > 1 : 0
+
+Pass rates by num_regenerations (verification_passed == True):
+  regen = 0 : 0.409
+  regen = 1 : 0.456
+
+Average pre-verifier prob for FINAL candidate:
+  regen = 0 : 0.504
+  regen = 1 : 0.482
+
+In slots where num_regenerations = 1:
+  final = initial    : 1
+  final = regenerated: 78
+
+Pass rates within regen = 1 group:
+  final = initial    : 0.000
+  final = regenerated: 0.462
+
+Average pre-verifier prob within regen = 1 group (FINAL candidate):
+  final = initial    : 0.178
+  final = regenerated: 0.486
+
+Done.
