@@ -24,3 +24,33 @@ Verification status:
   passed: 211 (46.4%)
   failed: 0 (0.0%)
   unknown: 244 (53.6%)
+
+File: variant_results\variants_all_20251210_073553.json
+Total final variants (slots): 455
+
+Counts by num_regenerations:
+  regen = 0 : 388
+  regen = 1 : 67
+  regen > 1 : 0
+
+Pass rates by num_regenerations (verification_passed == True):
+  regen = 0 : 0.503
+  regen = 1 : 0.239
+
+Average pre-verifier prob for FINAL candidate:
+  regen = 0 : 0.476
+  regen = 1 : 0.372
+
+In slots where num_regenerations = 1:
+  final = initial    : 9
+  final = regenerated: 58
+
+Pass rates within regen = 1 group:
+  final = initial    : 0.111
+  final = regenerated: 0.259
+
+Average pre-verifier prob within regen = 1 group (FINAL candidate):
+  final = initial    : 0.203
+  final = regenerated: 0.398
+
+Done.
