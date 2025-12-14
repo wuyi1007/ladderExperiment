@@ -1,0 +1,47 @@
+
+=== SUMMARY ===
+Total variants: 459
+
+By difficulty:
+  easier: 325
+  equivalent: 134
+
+Verification status:
+  passed: 198 (43.1%)
+  failed: 0 (0.0%)
+  unknown: 261 (56.9%)
+  
+(ladder) C:\Users\苏一波\LADDER-main>python analyze_preverifier.py variant_results/variants_all_20251214_233435.json
+=== analyze_preverifier_2shot ===
+File: variant_results/variants_all_20251214_233435.json
+Total final variants (slots): 459
+
+Counts by num_regenerations:
+  regen = 0 : 392
+  regen = 1 : 67
+  regen > 1 : 0
+
+Pass rates of FINAL candidate by num_regenerations (using verification_passed):
+  regen = 0: pass_rate = 0.444  (true=174, total=392),  avg_preverifier_prob = 0.475
+  regen = 1: pass_rate = 0.358  (true=24, total=67),  avg_preverifier_prob = 0.398
+  regen = >1: pass_rate = 0.000  (true=0, total=0),  avg_preverifier_prob = 0.000
+
+=== Loss / Gain of True ===
+Threshold used (τ): 0.25
+T_initial (initial candidates with verification_passed == True): 181
+T_final   (FINAL candidates with verification_passed == True): 198
+Loss_True_count (initial True with p < τ): 9
+Loss_True_fraction = Loss_True_count / T_initial = 0.050
+
+Baseline_true_no_regen (regen=0 & initial True): 174
+Regen_true_final (FINAL candidate is regenerated & True): 24
+Gain_ratio_baseline = Regen_true_final / Baseline_true_no_regen = 0.138
+Gain_ratio_Tinitial = Regen_true_final / T_initial = 0.133
+
+=== Approximate verification time saved ===
+Dropped candidates total (non-final per slot): 67 (these would have been extra numerical-verifier calls).
+Assumed cost per extra call: 2.0 seconds
+Total time saved (approx): 134.0 seconds
+Average time saved per slot: 0.292 seconds
+
+Done.
