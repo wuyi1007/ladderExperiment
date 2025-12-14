@@ -1,0 +1,443 @@
+(ladder) C:\Users\苏一波\LADDER-main>python summarize_verification_final.py variant_results/integrals_online_rehab_added_14_6/variants_all_20251210_073553.json
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Error verifying integral: 'Mul' object is not iterable
+Error verifying integral: 'Mul' object is not iterable
+Error verifying integral: 'Mul' object is not iterable
+Error verifying integral: 'Mul' object is not iterable
+Error verifying integral: 'Pow' object is not iterable
+Error verifying integral: 'Mul' object is not iterable
+Error verifying integral: 'Mul' object is not iterable
+Error verifying integral: 'Mul' object is not iterable
+Error verifying integral: 'Mul' object is not iterable
+Error verifying integral: 'Mul' object is not iterable
+Error verifying integral: 'Pow' object is not iterable
+Error verifying integral: 'Pow' object is not iterable
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Error verifying integral: 'Integer' object is not callable
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Error verifying integral: Sympify of expression 'could not parse 'x/(1 + sqrt(x)), x) + integrate(sqrt(x)/(1 + sqrt(x))'' failed, because of exception being raised:
+SyntaxError: unmatched ')' (<string>, line 1)
+Integration timed out in verify_integral; returning non-verified result.
+Error verifying integral: 'Pow' object is not iterable
+Integration timed out in verify_integral; returning non-verified result.
+Error verifying integral: unsupported operand type(s) for ** or pow(): 'Symbol' and 'set'
+Integration timed out in verify_integral; returning non-verified result.
+Error verifying integral: Sympify of expression 'could not parse 'x / (1 + sqrt(x)), x) + integrate(sqrt(x) / (1 + sqrt(x))'' failed, because of exception being raised:
+SyntaxError: unmatched ')' (<string>, line 1)
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Error verifying integral: Sympify of expression 'could not parse 'x/(1 + sqrt(x)), x) + integrate(sqrt(x)/(1 + sqrt(x))'' failed, because of exception being raised:
+SyntaxError: unmatched ')' (<string>, line 1)
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Error verifying integral: Sympify of expression 'could not parse 'e, x) - integrate(e / (exp(x) + 1)'' failed, because of exception being raised:
+SyntaxError: unmatched ')' (<string>, line 1)
+Error verifying integral: Sympify of expression 'could not parse 'exp(x + 1) * (1 - exp(-x) + exp(-2x) - ...)'' failed, because of exception being raised:
+SyntaxError: invalid syntax. Perhaps you forgot a comma? (<string>, line 1)
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Error verifying integral: Sympify of expression 'could not parse '1 / (exp(x) + 1), x) + integrate((exp(x) - 1) / (exp(x) + 1)'' failed, because of exception being raised:
+SyntaxError: unmatched ')' (<string>, line 1)
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Error verifying integral: Sympify of expression 'could not parse '3*sin(x), x) + integrate(-sin(3*x)'' failed, because of exception being raised:
+SyntaxError: unmatched ')' (<string>, line 1)
+Error verifying integral: Sympify of expression 'could not parse '3*sin(x), x) + integrate(-sin(x)*cos(2*x)'' failed, because of exception being raised:
+SyntaxError: unmatched ')' (<string>, line 1)
+Error verifying integral: Sympify of expression 'could not parse '(3/2)(exp(1j*x) - exp(-1j*x)) - (1/2i)(exp(3j*x) - exp(-3j*x))'' failed, because of exception being raised:
+SyntaxError: invalid syntax. Perhaps you forgot a comma? (<string>, line 1)
+Error verifying integral: Sympify of expression 'could not parse '3*sin(x) - (1/2)*(2*sin(2x + x) - 2*sin(2x - x))'' failed, because of exception being raised:
+SyntaxError: invalid syntax. Perhaps you forgot a comma? (<string>, line 1)
+Error verifying integral: Sympify of expression 'could not parse '3*(1 - cos(x)**2), x) - integrate((1 - 4*cos(3*x)**3)/2'' failed, because of exception being raised:
+SyntaxError: unmatched ')' (<string>, line 1)
+Error verifying integral: Sympify of expression 'could not parse '(3/2)*(sin(x) + sin(2*x) + sin(3*x)), x) - integrate(-sin(3*x)'' failed, because of exception being raised:
+SyntaxError: unmatched ')' (<string>, line 1)
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Error verifying integral: Sympify of expression 'could not parse 'cos(x), x) + integrate(-3*x**(-5)'' failed, because of exception being raised:
+SyntaxError: unmatched ')' (<string>, line 1)
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Error verifying integral: Sympify of expression 'could not parse '8*t**(-1/2), x) - integrate(12*t**(3/2)'' failed, because of exception being raised:
+SyntaxError: unmatched ')' (<string>, line 1)
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Error verifying integral: Sympify of expression 'could not parse '8*x**(-1/2), x) - integrate(12*x**(3/2)'' failed, because of exception being raised:
+SyntaxError: unmatched ')' (<string>, line 1)
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Error verifying integral: Sympify of expression 'could not parse '8/sqrt(t), x) + integrate(-12*sqrt(t**3)'' failed, because of exception being raised:
+SyntaxError: unmatched ')' (<string>, line 1)
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Error verifying integral: Sympify of expression 'could not parse '(1 - \\frac{14}{2z^3})/(14*z)'' failed, because of exception being raised:
+SyntaxError: unexpected character after line continuation character (<string>, line 1)
+Error verifying integral: Sympify of expression 'could not parse '1/(7*z) + z**(2/3)/4, x) + integrate(-1/(2*z**3)'' failed, because of exception being raised:
+SyntaxError: unmatched ')' (<string>, line 1)
+Error verifying integral: Sympify of expression 'could not parse '(4 - 14/(2z^2) + z**(5/3))/28'' failed, because of exception being raised:
+SyntaxError: invalid syntax. Perhaps you forgot a comma? (<string>, line 1)
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Error verifying integral: Sympify of expression 'could not parse '-1/(2*x**3) + (1/4)x**(2/3) + 1/(7*x)'' failed, because of exception being raised:
+SyntaxError: invalid syntax (<string>, line 1)
+Error verifying integral: Sympify of expression 'could not parse '1/(7*x) + (1/4)x**(2/3) - 1/(2*x**3)'' failed, because of exception being raised:
+SyntaxError: invalid syntax (<string>, line 1)
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Error verifying integral: Sympify of expression 'could not parse '7*sin(x), x) + integrate(-2*cos(x)'' failed, because of exception being raised:
+SyntaxError: unmatched ')' (<string>, line 1)
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Error verifying integral: Sympify of expression 'could not parse '7*sin(x), x) - 2*integrate(cos(x)'' failed, because of exception being raised:
+SyntaxError: unmatched ')' (<string>, line 1)
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Error verifying integral: Sympify of expression 'could not parse '7*sin(x), x) - integrate(2*cos(x)'' failed, because of exception being raised:
+SyntaxError: unmatched ')' (<string>, line 1)
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Error verifying integral: Sympify of expression 'could not parse '5*sin(x), x) + integrate(2*sin(x)'' failed, because of exception being raised:
+SyntaxError: unmatched ')' (<string>, line 1)
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Error verifying integral: Sympify of expression 'could not parse 'tan(x)**2, x) - integrate(1'' failed, because of exception being raised:
+SyntaxError: unmatched ')' (<string>, line 1)
+Error verifying integral: Sympify of expression 'could not parse 'tan(x), x) - integrate(1'' failed, because of exception being raised:
+SyntaxError: unmatched ')' (<string>, line 1)
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Error verifying integral: Sympify of expression 'could not parse '2*sec(x)**2, x) + integrate(-8*csc(x)*cot(x)'' failed, because of exception being raised:
+SyntaxError: unmatched ')' (<string>, line 1)
+Integration timed out in verify_integral; returning non-verified result.
+Error verifying integral: Sympify of expression 'could not parse '2*sec(x)**2, x) - integrate(8/log(sin(x))'' failed, because of exception being raised:
+SyntaxError: unmatched ')' (<string>, line 1)
+Integration timed out in verify_integral; returning non-verified result.
+File: variant_results\integrals_online_rehab_added_14_6\variants_all_20251210_073553.json
+Total ORIGINAL variants checked (is_initial = True): 455
+  verify_integral == True : 215
+  verify_integral == False: 240
+  True rate: 0.473
+
+Total verification wall time: 128.19 seconds
+Average time per original variant: 0.2817 seconds
+Process SpawnProcess-3:
+Traceback (most recent call last):
+  File "C:\Anaconda\envs\ladder\lib\multiprocessing\process.py", line 314, in _bootstrap
+    self.run()
+  File "C:\Anaconda\envs\ladder\lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Anaconda\envs\ladder\lib\concurrent\futures\process.py", line 239, in _process_worker
+    while True:
+KeyboardInterrupt
+Exception ignored in: <module 'threading' from 'C:\\Anaconda\\envs\\ladder\\lib\\threading.py'>
+Traceback (most recent call last):
+  File "C:\Anaconda\envs\ladder\lib\threading.py", line 1537, in _shutdown
+    atexit_call()
+  File "C:\Anaconda\envs\ladder\lib\concurrent\futures\process.py", line 95, in _python_exit
+    t.join()
+  File "C:\Anaconda\envs\ladder\lib\threading.py", line 1096, in join
+    self._wait_for_tstate_lock()
+  File "C:\Anaconda\envs\ladder\lib\threading.py", line 1116, in _wait_for_tstate_lock
+    if lock.acquire(block, timeout):
+KeyboardInterrupt:
+
+(ladder) C:\Users\苏一波\LADDER-main>python summarize_verification.py variant_results/integrals_online_rehab_added_14_6/variants_all_20251210_073553.json
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Error verifying integral: 'Mul' object is not iterable
+Error verifying integral: 'Mul' object is not iterable
+Error verifying integral: 'Mul' object is not iterable
+Error verifying integral: 'Mul' object is not iterable
+Error verifying integral: 'Pow' object is not iterable
+Error verifying integral: 'Mul' object is not iterable
+Error verifying integral: 'Mul' object is not iterable
+Error verifying integral: 'Mul' object is not iterable
+Error verifying integral: 'Mul' object is not iterable
+Error verifying integral: 'Mul' object is not iterable
+Error verifying integral: 'Pow' object is not iterable
+Error verifying integral: 'Pow' object is not iterable
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Error verifying integral: 'Integer' object is not callable
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Error verifying integral: Sympify of expression 'could not parse 'x/(1 + sqrt(x)), x) + integrate(sqrt(x)/(1 + sqrt(x))'' failed, because of exception being raised:
+SyntaxError: unmatched ')' (<string>, line 1)
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Error verifying integral: 'Pow' object is not iterable
+Integration timed out in verify_integral; returning non-verified result.
+Error verifying integral: unsupported operand type(s) for ** or pow(): 'Symbol' and 'set'
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Error verifying integral: Sympify of expression 'could not parse 'x / (1 + sqrt(x)), x) + integrate(sqrt(x) / (1 + sqrt(x))'' failed, because of exception being raised:
+SyntaxError: unmatched ')' (<string>, line 1)
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Error verifying integral: Sympify of expression 'could not parse 'x/(1 + sqrt(x)), x) + integrate(sqrt(x)/(1 + sqrt(x))'' failed, because of exception being raised:
+SyntaxError: unmatched ')' (<string>, line 1)
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Error verifying integral: Sympify of expression 'could not parse 'e, x) - integrate(e / (exp(x) + 1)'' failed, because of exception being raised:
+SyntaxError: unmatched ')' (<string>, line 1)
+Error verifying integral: Sympify of expression 'could not parse 'exp(x + 1) * (1 - exp(-x) + exp(-2x) - ...)'' failed, because of exception being raised:
+SyntaxError: invalid syntax. Perhaps you forgot a comma? (<string>, line 1)
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Error verifying integral: Sympify of expression 'could not parse '1 / (exp(x) + 1), x) + integrate((exp(x) - 1) / (exp(x) + 1)'' failed, because of exception being raised:
+SyntaxError: unmatched ')' (<string>, line 1)
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Error verifying integral: Sympify of expression 'could not parse '3*sin(x), x) + integrate(-sin(3*x)'' failed, because of exception being raised:
+SyntaxError: unmatched ')' (<string>, line 1)
+Error verifying integral: Sympify of expression 'could not parse '3*sin(x), x) + integrate(-sin(x)*cos(2*x)'' failed, because of exception being raised:
+SyntaxError: unmatched ')' (<string>, line 1)
+Error verifying integral: Sympify of expression 'could not parse '(3/2)(exp(1j*x) - exp(-1j*x)) - (1/2i)(exp(3j*x) - exp(-3j*x))'' failed, because of exception being raised:
+SyntaxError: invalid syntax. Perhaps you forgot a comma? (<string>, line 1)
+Error verifying integral: Sympify of expression 'could not parse '3*sin(x) - (1/2)*(2*sin(2x + x) - 2*sin(2x - x))'' failed, because of exception being raised:
+SyntaxError: invalid syntax. Perhaps you forgot a comma? (<string>, line 1)
+Error verifying integral: Sympify of expression 'could not parse '3*(1 - cos(x)**2), x) - integrate((1 - 4*cos(3*x)**3)/2'' failed, because of exception being raised:
+SyntaxError: unmatched ')' (<string>, line 1)
+Error verifying integral: Sympify of expression 'could not parse '(3/2)*(sin(x) + sin(2*x) + sin(3*x)), x) - integrate(-sin(3*x)'' failed, because of exception being raised:
+SyntaxError: unmatched ')' (<string>, line 1)
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Error verifying integral: Sympify of expression 'could not parse 'cos(x), x) + integrate(-3*x**(-5)'' failed, because of exception being raised:
+SyntaxError: unmatched ')' (<string>, line 1)
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Error verifying integral: Sympify of expression 'could not parse '8*t**(-1/2), x) - integrate(12*t**(3/2)'' failed, because of exception being raised:
+SyntaxError: unmatched ')' (<string>, line 1)
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Error verifying integral: Sympify of expression 'could not parse '8*x**(-1/2), x) - integrate(12*x**(3/2)'' failed, because of exception being raised:
+SyntaxError: unmatched ')' (<string>, line 1)
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Error verifying integral: Sympify of expression 'could not parse '-1/(2*x**3) + (1/4)x**(2/3) + 1/(7*x)'' failed, because of exception being raised:
+SyntaxError: invalid syntax (<string>, line 1)
+Error verifying integral: Sympify of expression 'could not parse '1/(7*x) + (1/4)x**(2/3) - 1/(2*x**3)'' failed, because of exception being raised:
+SyntaxError: invalid syntax (<string>, line 1)
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Error verifying integral: Sympify of expression 'could not parse '7*sin(x), x) + integrate(-2*cos(x)'' failed, because of exception being raised:
+SyntaxError: unmatched ')' (<string>, line 1)
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Error verifying integral: Sympify of expression 'could not parse '7*sin(x), x) - 2*integrate(cos(x)'' failed, because of exception being raised:
+SyntaxError: unmatched ')' (<string>, line 1)
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Error verifying integral: Sympify of expression 'could not parse '7*sin(x), x) - integrate(2*cos(x)'' failed, because of exception being raised:
+SyntaxError: unmatched ')' (<string>, line 1)
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Error verifying integral: Sympify of expression 'could not parse '5*sin(x), x) + integrate(2*sin(x)'' failed, because of exception being raised:
+SyntaxError: unmatched ')' (<string>, line 1)
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Error verifying integral: Sympify of expression 'could not parse 'tan(x)**2, x) - integrate(1'' failed, because of exception being raised:
+SyntaxError: unmatched ')' (<string>, line 1)
+Error verifying integral: Sympify of expression 'could not parse 'tan(x), x) - integrate(1'' failed, because of exception being raised:
+SyntaxError: unmatched ')' (<string>, line 1)
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Error verifying integral: Sympify of expression 'could not parse '2*sec(x)**2, x) + integrate(-8*csc(x)*cot(x)'' failed, because of exception being raised:
+SyntaxError: unmatched ')' (<string>, line 1)
+Integration timed out in verify_integral; returning non-verified result.
+Error verifying integral: Sympify of expression 'could not parse '2*sec(x)**2, x) - integrate(8/log(sin(x))'' failed, because of exception being raised:
+SyntaxError: unmatched ')' (<string>, line 1)
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+Integration timed out in verify_integral; returning non-verified result.
+File: variant_results/integrals_online_rehab_added_14_6/variants_all_20251210_073553.json
+Total final variants checked: 455
+Verified TRUE : 232
+Verified FALSE: 223
+True rate      : 0.510
+
+Verification time (seconds):
+  avg   = 0.3219
+  median= 0.0001
+  min   = 0.0000
+  max   = 1.1122
